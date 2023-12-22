@@ -1,0 +1,303 @@
+
+.main-container-of-page{
+  
+  padding: 0 1rem;
+  overflow: hidden !important;
+  
+}
+
+
+.heder-of-city-guidde{
+ position: fixed;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  background-color:rgb(247, 241, 241);
+  z-index: 100;
+
+}
+
+
+.main-head-text-of-landing-page {
+  margin-top: 5rem !important;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+  background-image: url(./image.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.head-text-of-landing-page {
+  animation: revealAnimation 2s forwards;
+}
+
+.text-of-landing-page{
+  text-shadow: 2px 2px 4px rgba(240, 12, 12, 0.788);
+  font-size: 500%;
+ 
+}
+
+.span-text-of-landing-page{
+  font-size: 45px;
+}
+
+
+
+.form-of-landing-page{
+  width: 100%;
+  background-color: rgba(228, 220, 220, 0.271);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  animation: revealAnimationright 2s forwards;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+}
+
+.form-of-landing-page input{
+ width: 70%;
+}
+
+.main-overview-of-page{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+
+.button-of-form{
+  background-color:  rgba(240, 12, 12, 0.788);
+  width: 35%;
+}
+
+.head-text-of-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.conent-of-college{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  padding: 1rem;
+
+}
+.main-conent-of-college{
+  padding: 1rem 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  
+}
+
+.main-conent-of-college img{
+  width: 50px;
+}
+
+.all-college-rvce{
+  width: 30%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.mian-all-content-of-reason{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.content-of-reason{
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content-of-engineerinf-college{
+  margin: auto;
+  
+}
+
+.two-college{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+    
+}
+
+.sliding-image-of-page{
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sliding-image-of-page{
+  display: flex;
+  animation: slideRightToLeft 10s linear infinite;
+  margin: 2rem 0;
+}
+
+
+.sliding-image-of-page img{
+  width: 100px;
+}
+
+.campus-life{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  margin-bottom: 5%;
+
+}
+
+
+.all-comp-in-campus{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.carousel-of-page{
+  margin-bottom: 5rem !important;
+}
+
+.footer-of-page{
+  background-color:#b22222 !important;
+  width: 100vw;
+}
+
+.all-link-in-footer i{
+  color: white;
+}
+
+.head-row-of-page th{
+  background-color: #939597 ;
+  color: white;
+}
+
+.second-row-of-page td{
+  background-color: #e71d36 ;
+  color: white;
+}
+
+.second-row-of-page th{
+  background-color: #e71d36 ;
+  color: white;
+}
+
+
+.third-row-of-page td,th{
+ 
+  background-color: #2d3142 ;
+  color: white;
+}
+
+.third-row-of-page th{
+ 
+  background-color: #2d3142 ;
+  color: white;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+@keyframes revealAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+}
+
+
+@keyframes revealAnimationright {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%); /* Start from the right side of the container */
+  }
+  100% {
+    transform: translateX(-100%); /* End at the left side of the container */
+  }
+}
+
+
+.all-comp-in-campus:hover {
+  transform: scale(1.1); /* Increase the scale factor as needed */
+}
+
+/* ----------------------------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+
+  .text-of-landing-page{
+    font-size: 230%;
+  }
+  .span-text-of-landing-page{
+    font-size: 60%;
+  }
+
+  .form-of-landing-page{
+    background-color: rgba(66, 66, 66, 0.933);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: revealAnimationright 2s forwards;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+    
+  
+  }
+ 
+  }
+

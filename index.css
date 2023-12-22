@@ -38,14 +38,22 @@
   animation: revealAnimation 2s forwards;
 }
 
+.be-addmition-text{
+  color: white;
+}
+
 .text-of-landing-page{
-  text-shadow: 2px 2px 4px rgba(240, 12, 12, 0.788);
-  font-size: 500%;
+  text-shadow: rgba(240, 12, 12, 0.79) 2px 2px 4px;
+  font-size: 413%;
+  font-weight: 700;
+  padding-bottom: 3rem;
  
 }
 
 .span-text-of-landing-page{
   font-size: 45px;
+  color: white;
+  font-family: sans-serif;
 }
 
 
@@ -94,7 +102,7 @@
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
   text-align: center;
   padding: 1rem;
 
@@ -145,7 +153,7 @@
 .two-college{
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 10rem;
 
     
 }

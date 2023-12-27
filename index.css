@@ -1,7 +1,6 @@
 
 .main-container-of-page{
-  
-  padding: 0 1rem;
+ 
   overflow: hidden !important;
   
 }
@@ -12,10 +11,11 @@
   height: 5rem;
   display: flex;
   justify-content: space-between;
-  padding: 0 5%;
+ 
   align-items: center;
   background-color:rgb(247, 241, 241);
   z-index: 100;
+  box-sizing: content-box !important;
 
 }
 
@@ -77,12 +77,13 @@
 }
 
 .main-overview-of-page{
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 2rem;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0 5%;
+  
 }
 
 
@@ -96,17 +97,20 @@
   justify-content: center;
   align-items: center;
   margin: 2rem 0;
+  text-align: center;
 }
 .conent-of-college{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: center;
-  gap: 2rem;
-  text-align: center;
-  padding: 1rem;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    text-align: center;
+    padding: 1rem;
+    
 }
+
+
 .main-conent-of-college{
   padding: 1rem 0;
   margin: auto;
@@ -115,6 +119,14 @@
   align-items: center;
   justify-self: center;
   
+}
+
+.eligibilty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8%;
+  margin: auto;
 }
 
 .main-conent-of-college img{
@@ -153,7 +165,7 @@
 .two-college{
   display: flex;
   justify-content: center;
-  gap: 10rem;
+  gap: 18%;
 
     
 }
@@ -183,7 +195,7 @@
   justify-content: center;
   align-items: center;
   gap:2rem;
-  margin-bottom: 5%;
+  margin: 2% 3%;
 
 }
 
@@ -198,6 +210,10 @@
   cursor: pointer;
 }
 
+.reason-in-page{
+  margin: 0 2%;
+}
+
 .carousel-of-page{
   margin-bottom: 5rem !important;
 }
@@ -205,6 +221,7 @@
 .footer-of-page{
   background-color:#b22222 !important;
   width: 100vw;
+  box-sizing: content-box !important;
 }
 
 .all-link-in-footer i{
@@ -308,6 +325,42 @@
     
   
   }
- 
-  }
 
+  .conent-of-college{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15%;
+    text-align: center;
+    padding: 0rem;
+}
+    
+}
+
+ 
+.all-college-rvce {
+  width: 30%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+}
+
+/* ------------ Thankyoupage CSS------------------------------- */
+
+.main-thank-you-of-landing-page {
+  background-color: rgba(228, 220, 220, 0.271);
+  border-radius: 10px;
+  text-shadow: rgba(240, 12, 12, 0.79) 2px 2px 4px;
+  color: white;
+  text-align: center;
+  animation: revealAnimationright 2s forwards;
+  padding: 2rem 1rem;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  width: 100%;
+
+}
